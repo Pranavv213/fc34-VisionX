@@ -3,71 +3,80 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/bglogin"
     android:layout_height="match_parent"
     tools:context=".Menu">
 
     <Button
         android:id="@+id/therapist"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="167dp"
+        android:layout_height="68dp"
         android:layout_marginTop="40dp"
+        android:backgroundTint="@color/teal_200"
         android:text="Talk to therapist"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/courses" />
 
     <Button
-        android:id="@+id/Hire"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Hire Candidate"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/Apply"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Job Apply"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Hire" />
-
-    <Button
         android:id="@+id/courses"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="167dp"
+        android:layout_height="68dp"
         android:layout_marginTop="40dp"
+        android:backgroundTint="@color/teal_200"
         android:text="Free Courses"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Apply" />
 
     <Button
         android:id="@+id/ngo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="167dp"
+        android:layout_height="68dp"
         android:layout_marginTop="40dp"
+        android:backgroundTint="@color/teal_200"
         android:text="NGO's"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/therapist" />
 
     <Button
         android:id="@+id/buy"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="167dp"
+        android:layout_height="68dp"
         android:layout_marginTop="40dp"
+        android:backgroundTint="@color/teal_200"
         android:text="Buy Our Products"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ngo" />
+
+    <Button
+        android:id="@+id/Apply"
+        android:layout_width="167dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Job Apply"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Hire" />
+
+    <Button
+        android:id="@+id/Hire"
+        android:layout_width="167dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Hire Candidate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

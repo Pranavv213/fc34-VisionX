@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         read = findViewById(R.id.b1);
         menu = findViewById(R.id.menu);
+        login = findViewById(R.id.login);
 
         textToSpeech = new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
             @Override
@@ -54,6 +55,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent  = new Intent(MainActivity.this, login.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }

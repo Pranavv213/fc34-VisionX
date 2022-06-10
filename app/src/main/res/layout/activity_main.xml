@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bglogin"
     tools:context=".MainActivity">
 
     <ImageView
@@ -25,7 +26,7 @@
         android:layout_marginBottom="388dp"
         android:fontFamily="sans-serif-medium"
         android:text="&quot;Your Opportunity awaits You&quot;"
-        android:textSize="20sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,9 +34,10 @@
 
     <Button
         android:id="@+id/b1"
-        android:layout_width="131dp"
-        android:layout_height="72dp"
+        android:layout_width="117dp"
+        android:layout_height="63dp"
         android:layout_marginBottom="124dp"
+        android:backgroundTint="@color/teal_200"
         android:text="read"
         app:layout_constraintBottom_toTopOf="@+id/menu"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,12 +46,24 @@
 
     <Button
         android:id="@+id/menu"
-        android:layout_width="121dp"
-        android:layout_height="66dp"
+        android:layout_width="117dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@color/teal_200"
         android:layout_marginBottom="76dp"
         android:text="menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b1" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="117dp"
+        android:layout_height="63dp"
+        android:text="login"
+        app:layout_constraintBottom_toTopOf="@+id/menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/teal_200"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/b1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
