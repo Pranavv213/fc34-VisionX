@@ -15,7 +15,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     Button read,menu;
-    TextView quote;
+    Button login;
     TextToSpeech textToSpeech;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,12 +32,18 @@ public class MainActivity extends AppCompatActivity {
                     int lang = textToSpeech.setLanguage(Locale.ENGLISH);
                 }
             }
-        });
+        }
+
+        );
+
         read.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String s = "You're Opportunity awaits you";
+                String s = "Welcome to the job portal your opportunity awaits you ";
+                int speed = textToSpeech.setSpeechRate(0.7F);
                 int speech = textToSpeech.speak(s,textToSpeech.QUEUE_FLUSH,null);
+
+
             }
         });
 
@@ -48,10 +54,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        MediaPlayer music = MediaPlayer.create(MainActivity.this, R.raw.jbpp);
-        music.start();
-
 
     }
 }
