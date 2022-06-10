@@ -4,10 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/91913/AndroidStudioProjects/JobPortal/app/src/main/res/drawable-v24/bslineinfo.xml" value="0.2265" />
+        <entry key="..\:/Users/91913/AndroidStudioProjects/JobPortal/app/src/main/res/drawable-v24/custominput.xml" value="0.2555" />
         <entry key="..\:/Users/91913/AndroidStudioProjects/JobPortal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2265" />
         <entry key="..\:/Users/91913/AndroidStudioProjects/JobPortal/app/src/main/res/drawable-v24/outlintinfo.xml" value="0.2265" />
+        <entry key="..\:/Users/91913/AndroidStudioProjects/JobPortal/app/src/main/res/drawable/custominput.xml" value="0.229" />
         <entry key="..\:/Users/91913/AndroidStudioProjects/JobPortal/app/src/main/res/drawable/raw.xml" value="0.2265" />
+        <entry key="..\:/Users/91913/AndroidStudioProjects/JobPortal/app/src/main/res/layout/activity_courses.xml" value="0.264" />
         <entry key="..\:/Users/91913/AndroidStudioProjects/JobPortal/app/src/main/res/layout/activity_login.xml" value="0.22239583333333332" />
+        <entry key="..\:/Users/91913/AndroidStudioProjects/JobPortal/app/src/main/res/layout/activity_login_user.xml" value="0.2" />
         <entry key="..\:/Users/91913/AndroidStudioProjects/JobPortal/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/91913/AndroidStudioProjects/JobPortal/app/src/main/res/layout/activity_menu.xml" value="0.22826086956521738" />
       </map>

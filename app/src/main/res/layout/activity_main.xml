@@ -7,63 +7,47 @@
     android:background="@drawable/bglogin"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="237dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="173dp"
-        app:layout_constraintBottom_toTopOf="@+id/b1"
+    <ImageButton
+        android:id="@+id/imgbt"
+        android:layout_width="332dp"
+        android:layout_height="390dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/aks" />
+        app:srcCompat="@drawable/aks"
+        tools:layout_editor_absoluteY="2dp" />
 
     <TextView
         android:id="@+id/quote"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="388dp"
+        android:layout_marginTop="24dp"
         android:fontFamily="sans-serif-medium"
         android:text="&quot;Your Opportunity awaits You&quot;"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-    <Button
-        android:id="@+id/b1"
-        android:layout_width="117dp"
-        android:layout_height="63dp"
-        android:layout_marginBottom="124dp"
-        android:backgroundTint="@color/teal_200"
-        android:text="read"
-        app:layout_constraintBottom_toTopOf="@+id/menu"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imgbt" />
 
     <Button
         android:id="@+id/menu"
         android:layout_width="117dp"
         android:layout_height="63dp"
+        android:layout_marginBottom="56dp"
         android:backgroundTint="@color/teal_200"
-        android:layout_marginBottom="76dp"
         android:text="menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b1" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/login"
         android:layout_width="117dp"
         android:layout_height="63dp"
+        android:backgroundTint="@color/teal_200"
         android:text="login"
         app:layout_constraintBottom_toTopOf="@+id/menu"
         app:layout_constraintEnd_toEndOf="parent"
-        android:backgroundTint="@color/teal_200"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b1" />
+        app:layout_constraintTop_toBottomOf="@+id/quote" />
 </androidx.constraintlayout.widget.ConstraintLayout>

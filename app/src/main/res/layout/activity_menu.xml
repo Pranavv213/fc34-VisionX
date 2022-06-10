@@ -17,10 +17,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/courses" />
+        app:layout_constraintTop_toBottomOf="@+id/course" />
 
     <Button
-        android:id="@+id/courses"
+        android:id="@+id/course"
         android:layout_width="167dp"
         android:layout_height="68dp"
         android:layout_marginTop="40dp"
