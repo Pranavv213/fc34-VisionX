@@ -12,14 +12,14 @@
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="173dp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/b1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/aks" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/quote"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="388dp"
@@ -32,24 +32,24 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/b1"
         android:layout_width="131dp"
         android:layout_height="72dp"
         android:layout_marginBottom="124dp"
-        android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        android:text="read"
+        app:layout_constraintBottom_toTopOf="@+id/menu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/menu"
         android:layout_width="121dp"
         android:layout_height="66dp"
         android:layout_marginBottom="76dp"
-        android:text="Button"
+        android:text="menu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/b1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
