@@ -25,8 +25,7 @@ public class Menu extends AppCompatActivity {
         course.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Menu.this, Courses.class);
-                startActivity(intent);
+               gotourl("https://sites.google.com/karostartup.com/akshana-vision-for-vision-less/take-free-upskilling?authuser=0");
             }
         });
 
